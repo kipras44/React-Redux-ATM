@@ -1,3 +1,8 @@
+/* In this file I create the actions for the counter reducer, that will
+update the balance displayed on screen with values that have been incremented or decremented,
+or with values that have 5% interest or 15% charges applied to them.
+*/
+
 import { createSlice } from "@reduxjs/toolkit";
 
 export const counterSlice = createSlice({ 
